@@ -3,18 +3,13 @@ SparkFun BlueSMiRF Firmware Binaries
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
-   <td><a href="https://www.sparkfun.com/products/23287"><img src="https://cdn.sparkfun.com//assets/parts/2/3/4/8/3/23287-BlueSMiRF-ESP32-WithHeaders-Scale.jpg"></a></td>
-   <td><a href="https://www.sparkfun.com/products/24113"><img src="https://cdn.sparkfun.com//assets/parts/2/4/4/3/8/24113-BlueSMiRF-ESP32-NoHeaders-Feature.jpg"></a></td>
+   <td><a href="https://www.sparkfun.com/products/24113"><img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/4/4/3/8/24113-BlueSMiRF-ESP32-NoHeaders-Feature-NEW.jpg"></a></td>
+   <td><a href="https://www.sparkfun.com/products/23287"><img src="https://cdn.sparkfun.com/r/600-600/assets/parts/2/3/4/8/3/23287-BlueSMiRF-ESP32-WithHeaders-Feature-NEW.jpg"></a></td>
   </tr>
   <tr align="center">
-    <td><a href="https://www.sparkfun.com/products/23287">SparkFun BlueSMiRF - ESP32 with Headers (WRL-23287)</a></td>
     <td><a href="https://www.sparkfun.com/products/24113">SparkFun BlueSMiRF - ESP32 (WRL-24113)</a></td>
+    <td><a href="https://www.sparkfun.com/products/23287">SparkFun BlueSMiRF - ESP32 with Headers (WRL-23287)</a></td>
   </tr>
-  <tr align="center">
-    <td><a href="https://learn.sparkfun.com/tutorials/sparkfun-rtk-facet-l-band-hookup-guide">Hookup Guide</a></td>
-    <td><a href="https://learn.sparkfun.com/tutorials/sparkfun-rtk-facet-hookup-guide">Hookup Guide</a></td>
-  </tr>
-
 </table>
 
 The [SparkFun BlueSMiRF - ESP32](https://www.sparkfun.com/products/24113) and [SparkFun BlueSMiRF - ESP32 with Headers](https://www.sparkfun.com/products/23287) are point to point serial cable replacements using Bluetooth. Simply throw serial characters at a BlueSMiRF and the data will arrive at the other radio, with guaranteed packet delivery. Baud rates supported up to 921600bps!
