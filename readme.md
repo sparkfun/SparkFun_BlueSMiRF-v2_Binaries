@@ -15,25 +15,44 @@ This repo houses the compiled binaries for the BlueSMiRF product line.
 
 Here are links to other helpful places:
 
-* [BlueSMiRF Product Manual](https://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/intro/) is helpful for all questions.
-* [BlueSMiRF Firmware and Hardware](https://github.com/sparkfun/SparkFun_BlueSMiRF-v2) is the open source firmware that runs on the BlueSMiRF products, as well as the PCB layouts.
+* [BlueSMiRF v2 Hookup Guide](https://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/introduction/) is helpful for all questions.
+* [BlueSMiRF v2 Firmware and Hardware](https://github.com/sparkfun/SparkFun_BlueSMiRF-v2) is the open source firmware that runs on the BlueSMiRF v2 products, as well as the PCB layouts.
 
 Product pages:
 
 * [SparkFun BlueSMiRF v2](https://www.sparkfun.com/products/24113)
 * [SparkFun BlueSMiRF v2 - Headers](https://www.sparkfun.com/products/23287)
 
+
+
 Repository Contents
 -------------------
 
-* **/** - Pre-compiled binaries of SparkFun RTK firmware, suitable for loading (see [Updating Firmware](https://docs.sparkfun.com/SparkFun_RTK_Firmware/firmware_update/)). 
+* **/** - Pre-compiled binaries of SparkFun RTK firmware, suitable for loading (see [Firmware Update](https://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/firmware_update/).). 
 * **/bin** - Extra files (bootloader, partition, and boot) needed when using esp_tool.
 * **/PreviousVersion** - Older versions of the firmware binaries, not recommended for use.
+
+
+
+Documentation
+--------------
+
+* **[Hookup Guide](http://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/)** - Basic hookup guide for the BlueSMiRF v2 PTH and header versions.
+* **[GitHub Hardware Repo](https://github.com/sparkfun/SparkFun_BlueSMiRF-v2/)** - Design files, firmware, and related product documentation.
+
+
+
+Product Versions
+----------------
+* [WRL-24113](https://www.sparkfun.com/products/24113) - Initial release, PTH version
+* [WRL-23287](https://www.sparkfun.com/products/23287) - Initial release, Header version
+
+
 
 License Information
 -------------------
 
-This product is _**open source**_!  Please feel free to [contribute](https://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/contribute/) to both the firmware and documentation.
+This product is _**open source**_!  Please feel free to [contribute](https://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/github/contribute/) to both the firmware and documentation.
 
 Various bits of the code have different licenses applied. Anything SparkFun wrote is beerware; if you see me (or any other SparkFun employee) at the local, and you've found our code helpful, please buy us a round!
 
