@@ -25,7 +25,7 @@ while true; do
     echo ""
     echo "Flashing board..."
     
-    py esptool.py --chip esp32 --port "$PORT" --baud 921600 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size 8MB 0x1000 bins/bootloader.bin 0x8000 bins/partitions.bin 0xe000 bins/boot_app0.bin 0x10000 "$FIRMWARE"
+    ./esptool --chip esp32 --port "$PORT" --baud 921600 --before default_reset --after hard_reset write_flash -z --flash-mode dio --flash-freq 80m --flash-size 8MB 0x1000 bins/bootloader.bin 0x8000 bins/partitions.bin 0xe000 bins/boot_app0.bin 0x10000 "$FIRMWARE"
     
     # Check if the esptool command was successful
     if [ $? -eq 0 ]; then
