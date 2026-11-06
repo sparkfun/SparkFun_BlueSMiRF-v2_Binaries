@@ -36,9 +36,11 @@ Run the shell script to upload the firmware to your board, where `BlueSMiRF_Firm
 Repository Contents
 -------------------
 
-* **/** - Pre-compiled binaries of SparkFun RTK firmware, suitable for loading (see [Firmware Update](https://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/firmware_update/).).
-* **/bin** - Extra files (bootloader, partition, and boot) needed when using esp_tool.
+* **/bin** - Extra files (bootloader, partition, and boot) needed when using esptool.
 * **/PreviousVersion** - Older versions of the firmware binaries, not recommended for use.
+* **`BlueSMiRF_Firmware_V##.bin`** - Pre-compiled binaries of SparkFun BlueSMiRF firmware, suitable for reprogramming (refer to the [hookup guide](https://docs.sparkfun.com/SparkFun_BlueSMiRF-v2/firmware-overview/#manually-reprogramming)).
+* **`esptool`** - The Linux/MacOS executable for [`esptool`](https://github.com/espressif/esptool)
+* **`esptool.exe`** - The Windows executable for [`esptool`](https://github.com/espressif/esptool)
 
 
 
