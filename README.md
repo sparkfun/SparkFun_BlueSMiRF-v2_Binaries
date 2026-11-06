@@ -8,12 +8,29 @@ This repo houses the compiled binaries for the BlueSMiRF v2 product line. The Sp
 
 Instructions
 ------------
-Run the batch file to upload the firmware to your board, where `BlueSMiRF_Firmware_v##.bin` is the firmware binary and `COM##` is the UART port.
+
+**Windows:**
+
+Run the batch file to upload the firmware to your board, where `BlueSMiRF_Firmware_v##.bin` is the firmware binary and `COM##` is the COM port.
 
 ```
 .\batch_program.bat .\BlueSMiRF_Firmware_v##.bin COM##
 ```
 
+
+**Linux/Mac:**
+
+Enable the permissions for the `batch_program.sh` and `esptool` files to be executable. *(Requires admin access)*
+
+```
+chmod +x batch_program.sh esptool
+```
+
+Run the shell script to upload the firmware to your board, where `BlueSMiRF_Firmware_v##.bin` is the firmware binary and `/dev/tty#` is the COM port.
+
+```
+./batch_program.sh ./BlueSMiRF_Firmware_v##.bin /dev/tty#
+```
 
 
 Repository Contents
