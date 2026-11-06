@@ -11,7 +11,7 @@ if [%2]==[] goto usage
 @echo -
 @echo Programming binary on %2
 
-esptool.exe --chip esp32 --port %2 --baud 921600  --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 80m --flash_size 8MB 0x1000 bins/bootloader.bin 0x8000 bins/partitions.bin 0xe000 bins/boot_app0.bin 0x10000 %1 
+esptool.exe --chip esp32 --port %2 --baud 921600  --before default-reset --after hard-reset write-flash -z --flash-mode dio --flash-freq 80m --flash-size 8MB 0x1000 bins/bootloader.bin 0x8000 bins/partitions.bin 0xe000 bins/boot_app0.bin 0x10000 %1 
 
 @echo Done programming! Ready for next board.
 @pause
